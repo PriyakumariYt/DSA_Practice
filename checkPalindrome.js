@@ -1,11 +1,10 @@
-var arr = [2, -4, 6, 8, -9]
- var res = "";
-  
-     for(i=0;i<arr.length;i++){
-       if(arr[i]<0){
-         res += "0";
-       }else {
-         res += arr[i];
-       }
-     }
-       console.log(res);
+var str = "naman";
+var rev = "";
+let ans = "no";
+for (let i = str.length - 1; i >= 0; i--) {
+  rev = rev + str[i];
+}
+if (rev === str) {
+  ans = "yes";
+}
+console.log(ans);
