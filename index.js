@@ -37,4 +37,5 @@ if(arr[i]!=result[i]){
  arr[i] = result[i]
 }
 }
-console.log(arr)
+// console.log(arr)
+
