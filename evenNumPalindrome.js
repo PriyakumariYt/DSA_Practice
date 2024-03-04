@@ -6,6 +6,7 @@ for(let i= 0;i<str.length; i++){
 
     }
 }
+console.log(res)
 let rev = ""
 let ans = "no"
 for(let i = res.length-1; i>=0 ;i--){
